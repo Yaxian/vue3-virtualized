@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import { VariableSizeList } from 'vue3-virtualized/src/index'
+import { VariableSizeList } from 'vue3-virtualized'
 import Row from './components/Row.vue'
 
 
