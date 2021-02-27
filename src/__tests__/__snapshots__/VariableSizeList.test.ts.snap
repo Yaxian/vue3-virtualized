@@ -11,28 +11,32 @@ exports[`VariableSizeList should render 1`] = `
     >
       
       <div
-        style="position: absolute; left: 0px; top: 0px; height: 50px; width: 100%;"
+        class="test-row"
+        style="border: 1px solid; position: absolute; left: 0px; top: 0px; height: 50px; width: 100%;"
       >
         Row 0
       </div>
       
       
       <div
-        style="position: absolute; left: 0px; top: 50px; height: 50px; width: 100%;"
+        class="test-row"
+        style="border: 1px solid; position: absolute; left: 0px; top: 50px; height: 50px; width: 100%;"
       >
         Row 1
       </div>
       
       
       <div
-        style="position: absolute; left: 0px; top: 100px; height: 50px; width: 100%;"
+        class="test-row"
+        style="border: 1px solid; position: absolute; left: 0px; top: 100px; height: 50px; width: 100%;"
       >
         Row 2
       </div>
       
       
       <div
-        style="position: absolute; left: 0px; top: 150px; height: 50px; width: 100%;"
+        class="test-row"
+        style="border: 1px solid; position: absolute; left: 0px; top: 150px; height: 50px; width: 100%;"
       >
         Row 3
       </div>
