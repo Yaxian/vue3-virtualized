@@ -1,7 +1,6 @@
 import { h } from 'vue'
 
 import memoizeOne from 'memoize-one'
-import styleToObject from 'style-to-object'
 import { cancelTimeout, requestTimeout } from './timer'
 import { getRTLOffsetType } from './domHelpers'
 
@@ -526,10 +525,10 @@ export default function createListComponent({
         this._instanceProps,
       )
 
+
       const vnode =  h(
         outerElementType || outerTagName || 'div',
         {
-          role: 'vl-outer',
           ...context.$attrs,
           onScroll,
           ref: this._outerRefSetter,
@@ -541,7 +540,7 @@ export default function createListComponent({
             height: `${height}px`,
             width: `${width}`.includes('%') ? `${width}` : `${width}px`,
             direction,
-            ...styleToObject(context.$attrs.style)
+            ...(context.$attrs.style || {})
           },
         },
         h(innerElementType || innerTagName || 'div', {

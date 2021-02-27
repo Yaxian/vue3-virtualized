@@ -26,6 +26,7 @@ describe('VariableSizeList', () => {
     const TestComponent = {
       template: `
         <VariableSizeList
+          role="vl-outer"
           :height="100"
           :item-size="itemSize"
           :item-count="200"

@@ -1,6 +1,6 @@
 # vue3-virtualized
 
-It was inspired by [react-window](https://github.com/bvaughn/react-window)
+It was inspired by [react-window](https://github.com/bvaughn/react-window).
 
 ![vue3-virtualized-gif](examples/vue3-virtualized.gif)
 

@@ -12,7 +12,11 @@
   ],
   "main": "dist/index.common.js",
   "unpkg": "dist/index.umd.js",
-  "repository": "git@github.com:Yaxian/vue3-virtualized.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaxian/vue3-virtualized.git"
+  },
+  "homepage": "https://github.com/Yaxian/vue3-virtualized#readme",
   "author": "yaxian.gu <yaxian.gu@gmail.com>",
   "scripts": {
     "build": "npm run build:cjs && npm run build:umd",
@@ -25,8 +29,7 @@
     "vue": ">=3"
   },
   "dependencies": {
-    "memoize-one": "^5.1.1",
-    "style-to-object": "^0.3.0"
+    "memoize-one": "^5.1.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.9",
