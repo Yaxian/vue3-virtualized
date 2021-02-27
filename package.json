@@ -1,6 +1,6 @@
 {
   "name": "vue3-virtualized",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vue3 components for efficiently rendering large, scrollable lists and tabular data",
   "keywords": [
     "vue",
