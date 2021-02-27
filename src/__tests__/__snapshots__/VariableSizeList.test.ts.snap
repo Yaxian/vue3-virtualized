@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VariableSizeList should render 1`] = `
+<div>
+  <div
+    role="vl-outer"
+    style="position: relative; overflow: auto; will-change: transform; height: 100px; direction: ltr;"
+  >
+    <div
+      style="height: 10000px; width: 100%;"
+    >
+      
+      <div
+        style="position: absolute; left: 0px; top: 0px; height: 50px; width: 100%;"
+      >
+        Row 0
+      </div>
+      
+      
+      <div
+        style="position: absolute; left: 0px; top: 50px; height: 50px; width: 100%;"
+      >
+        Row 1
+      </div>
+      
+      
+      <div
+        style="position: absolute; left: 0px; top: 100px; height: 50px; width: 100%;"
+      >
+        Row 2
+      </div>
+      
+      
+      <div
+        style="position: absolute; left: 0px; top: 150px; height: 50px; width: 100%;"
+      >
+        Row 3
+      </div>
+      
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+{
+  "name": "examples",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.5",
+    "vue3-virtualized": "file:../"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.6",
+    "vite": "^2.0.4"
+  }
+}
