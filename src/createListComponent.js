@@ -511,7 +511,6 @@ export default function createListComponent({
             index,
             isScrolling: useIsScrolling ? isScrolling : undefined,
           })
-          console.log('vnode[0].props', vnode[0].props.style)
           vnode[0].props.style = {
             ...(vnode[0].props.style || {}),
             ...itemStyle

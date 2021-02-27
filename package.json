@@ -1,7 +1,16 @@
 {
   "name": "vue3-virtualized",
   "version": "0.0.0",
-  "main": "index.js",
+  "description": "Vue3 components for efficiently rendering large, scrollable lists and tabular data",
+  "keywords": [
+    "vue",
+    "vue3",
+    "virtual",
+    "list",
+    "virtualized",
+    "scroll"
+  ],
+  "main": "dist/index.js",
   "repository": "git@github.com:Yaxian/vue3-virtualized.git",
   "author": "yaxian.gu <yaxian.gu@gmail.com>",
   "scripts": {
