@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "vue": "^3.0.5",
-    "vue3-virtualized": "file:../"
+    "vue3-virtualized": "*"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.1.5",
