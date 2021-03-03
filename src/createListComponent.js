@@ -1,4 +1,4 @@
-import { h } from 'vue'
+import { defineComponent, h } from 'vue'
 
 import memoizeOne from 'memoize-one'
 import { cancelTimeout, requestTimeout } from './timer'
@@ -103,7 +103,7 @@ export default function createListComponent({
   shouldResetStyleCacheOnItemSizeChange,
   validateProps,
 }) {
-  const List = {
+  const List = defineComponent({
     inheritAttrs: false,
     props: {
       layout: {
@@ -556,7 +556,7 @@ export default function createListComponent({
       return vnode
     },
 
-  }
+  })
 
   return List
 }
