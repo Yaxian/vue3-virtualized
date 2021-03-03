@@ -4,12 +4,13 @@
       :height="150"
       :item-size="getItemSize"
       :item-count="1000"
+      :item-data="[]"
     >
       <template #default="{ data, index, key, isScrolling  }">
         <Row
           :key="key"
           :index="index"
-          :rowData="data"
+          :rows="data"
           :isScrolling="isScrolling"
           @click="handleClickRow(data, index)"
         />
@@ -38,7 +39,7 @@ export default {
     }
   },
   methods: {
-    handleClickRow(rowData, index) {
+    handleClickRow(rows, index) {
       console.log(`click row ${index}`)
     }
   }

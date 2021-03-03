@@ -22,11 +22,13 @@ yarn dev
     :height="150"
     :item-size="getItemSize"
     :item-count="1000"
+    :item-data="[]"
   >
     <template #default="{ data, index, key, isScrolling  }">
       <Row
+        :key="key"
         :index="index"
-        :rowData="data"
+        :rows="data"
         :isScrolling="isScrolling"
         @click="handleClickRow(data, index)"
       />
@@ -43,8 +45,9 @@ const Row = {
     index: {
       type: Number
     },
-    rowData: {
-
+    rows: {
+      type: Array,
+      default: () => ([])
     },
   },
 
@@ -77,9 +80,6 @@ export default {
       console.log(`click row ${index}`)
     }
   }
-
 }
-
-
 </script>
 ```
